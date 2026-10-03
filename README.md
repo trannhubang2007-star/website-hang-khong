@@ -21,4 +21,4 @@ Mở `index.html` bằng trình duyệt hoặc dùng Live Server trong VS Code.
 5. Lưu và chờ GitHub Pages triển khai.
 
 ## Nguồn
-Nội dung website được tự biên soạn cho mục đích học tập. Biểu tượng sử dụng emoji nên không cần tải tài nguyên hình ảnh bên ngoài.
+Biểu tượng sử dụng emoji nên không cần tải tài nguyên hình ảnh bên ngoài.
