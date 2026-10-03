@@ -1,0 +1,9 @@
+AVIATION STUDENT – THÔNG TIN NỘP BÀI
+Website: https://trannhubang2007-star.github.io/website-hang-khong/
+Repository: https://github.com/trannhubang2007-star/website-hang-khong
+
+Chủ đề: Website cá nhân và hành trình khám phá ngành Hàng không.
+Công nghệ: HTML5, CSS3, Flexbox, CSS Grid, Media Queries.
+Các trang: index.html, about.html, study.html, aircraft.html, airport.html, careers.html, gallery.html, contact.html.
+Responsive: Desktop, Tablet, Mobile.
+Nguồn hình ảnh minh họa: Unsplash (liên kết ảnh được nhúng trong các trang HTML).
