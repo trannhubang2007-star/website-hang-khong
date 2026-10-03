@@ -73,3 +73,30 @@ blockquote{font-size:1.6rem;font-weight:600;margin:25px 0 10px}.quote p{opacity:
     .footer-grid{grid-template-columns:1fr;gap:25px}
 }
 @media(max-width:450px){h1{font-size:2.2rem}.hero-actions .btn{width:100%;text-align:center}}
+
+/* Responsive layout improvements */
+.nav-wrap{gap:16px;min-height:72px;height:auto;padding-top:10px;padding-bottom:10px}
+.nav{flex-wrap:wrap;justify-content:flex-end}
+img{max-width:100%;height:auto}
+.cards img{display:block}
+@media(max-width:900px){
+ .nav-wrap{align-items:flex-start;flex-direction:column}
+ .nav{justify-content:flex-start;width:100%;gap:4px}
+ .nav a{padding:7px 10px;font-size:.9rem}
+ .hero-content,.about-grid{grid-template-columns:1fr;gap:28px}
+ .cards.three{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:600px){
+ .container{width:min(100% - 32px,1120px)}
+ .nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}
+ .nav a{text-align:center;padding:8px 5px}
+ .hero{padding:56px 0}
+ .hero h1{font-size:clamp(2rem,9vw,3rem);line-height:1.2}
+ .page-banner{padding:48px 0}
+ .section{padding:48px 0}
+ .section-heading h2{font-size:1.7rem}
+ .cards.three{grid-template-columns:1fr}
+ .footer-grid{grid-template-columns:1fr;gap:24px}
+ .hero-actions{display:flex;flex-wrap:wrap;gap:10px}
+ .btn{max-width:100%}
+}
