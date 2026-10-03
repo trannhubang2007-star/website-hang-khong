@@ -103,9 +103,25 @@ img{max-width:100%;height:auto}
 
 /* Final navigation fix: keep all eight links visible on wide screens */
 @media(min-width:901px){
-  .site-header .nav-wrap{width:min(1400px,96%);gap:12px}
-  .site-header .nav{display:flex;flex:1;justify-content:flex-end;flex-wrap:nowrap;gap:2px;min-width:0}
-  .site-header .nav a{white-space:nowrap;padding:8px 9px;font-size:.9rem}
+  .site-header .nav-wrap{
+    width:min(1400px,90%);
+    gap:0;
+    justify-content:space-between;
+  }
+  .site-header .nav{
+    display:flex;
+    flex:1;
+    min-width:0;
+    margin-left:160px;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+    gap:0;
+  }
+  .site-header .nav a{
+    white-space:nowrap;
+    padding:8px 9px;
+    font-size:.9rem;
+  }
 }
 @media(max-width:900px){
   .site-header .nav{display:flex;flex-wrap:wrap;justify-content:flex-start}
