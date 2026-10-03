@@ -151,3 +151,19 @@ img{max-width:100%;height:auto}
     white-space: nowrap;
   }
 }
+
+/* Reference header: centered 1400px content area on desktop */
+@media screen and (min-width: 901px) {
+  header.site-header .container.nav-wrap {
+    width: 1400px !important;
+    max-width: calc(100% - 48px) !important;
+    margin-inline: auto !important;
+    justify-content: space-between !important;
+  }
+  header.site-header .nav {
+    flex: 1 1 auto !important;
+    margin-left: 160px !important;
+    justify-content: space-between !important;
+    gap: 0 !important;
+  }
+}
